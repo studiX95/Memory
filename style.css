@@ -1,0 +1,216 @@
+body{
+	/* Background pattern from subtlepatterns.com */
+	background-image: url("tlo/nasty_fabric.png");
+	color : white;
+	font-family: 'Anton', sans-serif;
+	color : black;
+}
+#pojemnik{
+	width : 900px;
+	margin-top : 3%;
+	margin-left : auto;
+	margin-right : auto;
+}
+#autor{
+	margin-top : 2%;
+	font-size : 32px;
+	text-align : center;
+	color : red;
+}
+#logo{
+	font-size : 54px;
+	text-align : center;
+	color : red;
+	letter-spacing : 8px;
+}
+#plansza{
+	width : 420px;
+	margin-left : auto;
+	margin-right : auto;	
+	border-radius : 20px;
+	text-align : center;
+}
+.gratki{
+	margin-top : 40px;
+}
+.jeszcze_raz{
+	float : left;
+	width : 50%;
+	margin-top : 60px;
+	font-size : 26px;
+}
+.jeszcze_raz:hover{
+	font-size : 32px;
+	color : red;
+}
+.menu{
+	float : left;
+	width : 50%;
+	margin-top : 60px;
+	font-size : 32px;
+}
+.menu:hover{
+	font-size : 38px;
+	color : red;
+}
+/*style dla strony startowej     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+#utp{
+	margin-bottom : 40px;
+	margin-top : 20px;
+	padding : 15px;
+	background-color : #fcbdad;
+	border : 3px solid #8a0e0d;
+	border-radius : 20px;
+	font-size : 20px;
+	font-weight : normal;
+	color : #8a0e0d;
+	letter-spacing : 3px;
+	text-align : center;
+}
+#utp:hover{
+	color : red;
+	cursor : pointer;
+	border : 3px solid red;
+}
+#kitty{
+	margin-bottom : 40px;
+	padding : 15px;
+	background-color : #fcbdbd;
+	border : 3px solid #f65858;
+	border-radius : 20px;
+	font-size : 20px;
+	font-weight : normal;
+	color : #f65858;
+	letter-spacing : 3px;
+	text-align : center;
+}
+#kitty:hover{
+	color : red;
+	cursor : pointer;
+	border : 3px solid red;
+}
+#pokemon{
+	margin-bottom : 40px;
+	padding : 15px;
+	background-color : #F9F959;
+	border : 3px solid  #fbbc05;
+	border-radius : 20px;
+	font-size : 20px;
+	font-weight : normal;
+	color : #fbbc05;
+	letter-spacing : 3px;
+	text-align : center;
+}
+#pokemon:hover{
+	color : red;
+	cursor : pointer;
+	border : 3px solid red;
+}
+fieldset{
+	padding : 40px;
+	border : 3px solid red;
+	border-radius : 20px;
+	font-size : 28px;
+	font-weight : normal;
+	background-color : #ece;
+}
+legend{
+	text-align : left;
+	letter-spacing : 3px;
+}
+/*koenic stylów dla strony startowej   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*MEMORY UTP  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.kafelek_utp{
+	float : left;
+	height : 70px;
+	width : 70px;
+	margin : 5px;
+	border : 2px solid #8a0e0d;
+	color : #8a0e0d;
+	font-size : 44px;
+	background-color : #fcbdad;
+	cursor : default;
+}
+
+input[type = 'submit_utp']{
+	margin-top : 30px;
+	padding : 10px;
+	letter-spacing : 3px;
+	border : 2px solid #8a0e0d;
+	border-radius : 10px;
+	background-color : #fcbdad;
+	color : #8a0e0d;
+	font-weight : bold;
+	text-align : center;
+}
+input[type = 'submit_utp']:hover{
+	color : red;
+	cursor : pointer;
+}
+/*KONIEC MEMORY UTP   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*MEMORY HELLO KITTY   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.kafelek_kitty{
+	float : left;
+	height : 70px;
+	width : 70px;
+	margin : 5px;
+	border : 2px solid #f65858;
+	color : pink;
+	font-size : 44px;
+	background-color : #fa9c9c;
+	cursor : default;
+}
+
+input[type = 'submit_kitty']{
+	margin-top : 30px;
+	padding : 10px;
+	letter-spacing : 3px;
+	border : 2px solid #f65858;
+	border-radius : 10px;
+	background-color : #fa9c9c;
+	color : white;
+	font-weight : bold;
+	text-align : center;
+}
+input[type = 'submit_kitty']:hover{
+	color : red;
+	cursor : pointer;
+}
+/*KONIEC MEMORY HELLO KITTY    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*MEMORY POKEMON   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.kafelek_pokemon{
+	float : left;
+	height : 70px;
+	width : 70px;
+	margin : 5px;
+	border : 2px solid #fbbc05;
+	color : #fbbc05;
+	font-size : 44px;
+	background-color : #F9F959;
+	cursor : default;
+}
+
+input[type = 'submit_pokemon']{
+	margin-top : 30px;
+	padding : 10px;
+	letter-spacing : 3px;
+	border : 2px solid #fbbc05;
+	border-radius : 10px;
+	background-color : #F9F959;
+	color : #fbbc05;
+	font-weight : bold;
+	text-align : center;
+}
+input[type = 'submit_pokemon']:hover{
+	color : red;
+	cursor : pointer;
+}
+/*KONIEC MEMORY POKEMON   @@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+
+
+
